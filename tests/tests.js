@@ -1,11 +1,8 @@
 (function() {
   'use strict';
 
-  var app = require("../app/index.js"),
-    dataTypes = app.dataTypes,
+  var app = require("../app/getprimes.js"),
     getPrimes = app.getPrimes;
-  
-  var Puppy = require("../app/puppy.js");
     
   describe("Get Prime tests", function() {
     describe("Case for some falsy or invalid values", function() {
