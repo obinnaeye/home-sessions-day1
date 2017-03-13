@@ -1,7 +1,8 @@
 (function() {
   'use strict';
 
-  var dataTypes = require("../app/index.js"),
+  var app = require("../app/datatypes.js"),
+    dataTypes = app.dataTypes;
     
   
   describe("Data types tests ", function() {
