@@ -2,7 +2,7 @@
   "name": "datatypes",
   "version": "1.0.0",
   "description": "Andela exercises",
-  "main": "puppy.js",
+  "main": "app/datatypes.js",
   "directories": {
     "test": "tests"
   },
