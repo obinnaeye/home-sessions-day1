@@ -1,7 +1,7 @@
 {
   "name": "getprimes",
   "version": "1.0.0",
-  "description": "Opp implementation, Andela exercises",
+  "description": "Andela exercises",
   "main": "getprimes.js",
   "directories": {
     "test": "tests"
