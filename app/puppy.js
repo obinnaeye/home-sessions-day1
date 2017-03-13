@@ -12,3 +12,10 @@ Puppy.prototype.barks = function(){
     var sound = this.age < 6? "ku-ku-ku" : "Woo! Woo!";
     return sound;
 }
+
+Puppy.prototype.pregnant = function(weeks){
+    if (this.sex === "female" && this.age >= 12){
+        this.visbreast = weeks;
+        return weeks;
+    }    
+}
