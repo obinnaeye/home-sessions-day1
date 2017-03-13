@@ -20,3 +20,5 @@ Puppy.prototype.pregnant = function(weeks){
     }
     return "too young to be pregnant";
 }
+
+module.exports = Puppy;
