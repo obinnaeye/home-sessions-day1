@@ -7,3 +7,8 @@ function Puppy (name, species, age, sex){
     this.tailType = species === "Schipperke" || species === "Bobtail"? "short" : "long";
     this.visbreast = 0;
 }
+
+Puppy.prototype.barks = function(){
+    var sound = this.age < 6? "ku-ku-ku" : "Woo! Woo!";
+    return sound;
+}
