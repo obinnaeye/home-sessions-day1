@@ -17,5 +17,6 @@ Puppy.prototype.pregnant = function(weeks){
     if (this.sex === "female" && this.age >= 12){
         this.visbreast = weeks;
         return weeks;
-    }    
+    }
+    return "too young to be pregnant";
 }
